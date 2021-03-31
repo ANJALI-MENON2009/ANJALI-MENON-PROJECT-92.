@@ -50,13 +50,14 @@ function check()
                 player1_score = player1_score + 1;
                 document.getElementById("player1_score").innerHTML = player1_score ;
                 document.getElementById("remark_of_answer").innerHTML = player1_name + " has scored a point! Keep going! 👍 "  ;
-               
+                window.alert("That's right! Good job!");
             }
             else {
                 document.getElementById("output").style.display = "inline-block" ; 
                 player2_score = player2_score + 1;
                 document.getElementById("player2_score").innerHTML = player2_score ;
                 document.getElementById("remark_of_answer").innerHTML = player2_name + " has scored a point! Keep going! 👍  "  ;
+                window.alert("That's right! Good job!");
             }
     }
 
