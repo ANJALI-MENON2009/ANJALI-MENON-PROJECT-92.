@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Maths quiz
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+</head>
+<script src="main.js"></script>
+<body>
+    <center>
+        <h1 id="welcome"> Welcome to </h1> 
+        <div>
+    <h1 id="title"> Math Quiz- Test your Math </h1></div>
+    <div class="container">
+    <div class="col-lg-4 col-md-8 col-sm-8 col-xs-11 login_div1"> 
+        <h3 style="font-family: 'Acme', sans-serif; color: red; font-size: 32px;"> Player 1 Login </h3>
+        <label style="font-family: 'Fjalla One', sans-serif; font-size:19px; color:purple; margin:5px;"> Username:  </label>
+        <input  id="player1_name_input" class="form-control" placeholder="Player 1 username:" style="font-family: 'Lobster', cursive; color: black;">  <br> <br>  
+        </div>
+        <br> <br> <br>
+        <div class="col-lg-4 col-md-8 col-sm-8 col-xs-11 login_div2"> 
+            <h3 style="font-family: 'Acme', sans-serif; color: red; font-size: 32px;"> Player 2 Login </h3>
+            <label style="font-family: 'Fjalla One', sans-serif; font-size:19px; color:purple; margin:5px;"> Username:  </label>
+            <input id="player2_name_input" class="form-control" placeholder="Player 2 username:" style="font-family: 'Lobster', cursive; color: black;"> <br> <br>  
+            </div>
+            <br> <br> <br>
+            <button id="login_btn" style="width: 30%" class="btn btn-warning" onclick="addUser()" style="color:yellow"> LOGIN </button>
+        </div>
+        </center>  
+</body>
+</html>

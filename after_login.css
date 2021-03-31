@@ -1,0 +1,17 @@
+body
+{
+	background: url("bg_final.jpg") , whitesmoke;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 150% ;
+   
+}
+#output{
+    background-color: white;
+    border-radius: 20px;
+    border-top:5px solid;
+    border-top-color:darkmagenta;
+    padding:10px;
+    float:none;
+    text-align:left;
+}
